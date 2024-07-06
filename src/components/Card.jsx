@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 export default function Card({item}) {
@@ -8,7 +9,7 @@ export default function Card({item}) {
     }
     return (
         <div className="text-sm py-4">
-            <h2 className="flex justify-between gap-4 font-bold">
+            <h2 className="flex justify-between gap-4 font-bold hover:text-GrayishPurple select-none cursor-pointer">
                 {item.question}
                 <button
                     className="h-6 w-6 flex items-center justify-center"
