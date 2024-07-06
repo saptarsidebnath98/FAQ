@@ -11,7 +11,7 @@ function App() {
       </div>
 
       <div className="absolute inset-0 flex items-center justify-center">
-        <div className="bg-white bg-opacity-100 md:w-1/3 h-auto p-10 rounded-lg shadow-lg">
+        <div className="bg-white bg-opacity-100 w-10/12 md:w-1/3 h-auto p-5 md:p-10 rounded-lg shadow-lg">
           <Header/>
           <Main/>
         </div>
