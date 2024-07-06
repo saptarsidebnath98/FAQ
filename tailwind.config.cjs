@@ -16,6 +16,9 @@ module.exports = {
       backgroundImage: {
         'background-pattern': "url('/images/background-pattern-desktop.svg')",
       },
+      fontFamily: {
+        'workSans' : ['"Work Sans"', 'sans-serif']
+      }
     },
   },
   plugins: [],
